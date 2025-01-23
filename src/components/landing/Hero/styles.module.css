@@ -52,9 +52,45 @@
 }
 
 .circle {
-  @apply absolute top-0 w-full h-full bg-gradient-to-r from-[rgb(150,255,244,0.81)] to-[rgb(0,71,252,0.81)] rounded-full opacity-30;
-  filter: blur(80px);
-  z-index: -1;
+  @apply absolute -top-48 w-full h-full rounded-bl-full opacity-60;
+  background: linear-gradient(
+    45deg,
+    var(--circle-gradient-1),
+    var(--circle-gradient-2),
+    var(--circle-gradient-3)
+  );
+  background-size: 300% 300%;
+  filter: blur(64px);
+  z-index: -2;
+  animation: gradientShift 8s ease infinite;
+  transform-origin: center;
+  transition: transform 0.2s ease-out;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* 添加亮色模式的渐变颜色 */
+:root {
+  --circle-gradient-1: rgb(45, 196, 251);
+  --circle-gradient-2: rgb(0, 139, 252);
+  --circle-gradient-3: rgb(85, 255, 210);
+}
+
+/* 添加暗色模式的渐变颜色 */
+[data-theme='dark'] {
+  --circle-gradient-1: rgba(34, 240, 255, 0.65);
+  --circle-gradient-2: rgba(37, 150, 255, 0.741);
+  --circle-gradient-3: rgba(42, 66, 255, 0.411);
 }
 
 .box {
@@ -103,4 +139,19 @@
   .intro {
     @apply pt-8;
   }
+}
+
+.carousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.carousel :global(.carouselContainer) {
+  width: 100%;
+  height: 100%;
+  box-shadow: none;
 }

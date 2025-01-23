@@ -4,15 +4,15 @@ import { themes } from 'prism-react-renderer'
 import social from './data/social'
 import type { GiscusConfig } from './src/components/Comment'
 
-const beian = '闽ICP备2020017848号-2'
-const beian1 = '闽公网安备35021102000847号'
+const beian = ' '
+const beian1 = ' '
 
 const config: Config = {
-  title: 'KatGreene',
-  url: 'https://kuizuo.cn',
+  title: 'KT Studio',
+  url: 'https://katgreene.github.io',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
-  organizationName: 'kuizuo',
+  favicon: 'img/ktstudio_icon_rounded.ico',
+  organizationName: 'katgreene',
   projectName: 'blog',
   customFields: {
     bio: '道阻且长，行则将至',
@@ -52,8 +52,8 @@ const config: Config = {
       },
       hideOnScroll: true,
       items: [
-        { label: '画廊', position: 'right', to: 'blog' },
-        { label: '项目', position: 'right', to: 'project' },
+        { label: '游戏', position: 'right', to: 'blog' },
+        { label: '下载', position: 'right', to: 'project' },
         // { label: '友链', position: 'right', to: 'friends' },
         { label: '关于', position: 'right', to: 'about' },
         // {
@@ -75,27 +75,26 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: '学习',
+          title: '游戏',
           items: [
-            { label: '博客', to: 'blog' },
+            { label: '特点介绍', to: 'blog' },
           ],
         },
         {
-          title: '社交媒体',
+          title: '下载',
           items: [
-            { label: '关于我', to: '/about' },
+            { label: '立即开始', to: '/project' },
           ],
         },
         {
-          title: '网站',
+          title: '关于',
           items: [
-            { label: 'js反混淆', to: 'https://js-deobfuscator.kuizuo.cn' },
+            { label: '开发者的话', to: '/about' },
           ],
         },
         {
-          title: '更多',
+          title: '网站信息',
           items: [
-            { label: '友链', position: 'right', to: 'friends' },
             {
               html: `
                 <a href="https://docusaurus.io" target="_blank" rel="noreferrer noopener">
@@ -106,13 +105,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `
-        <p style="margin-bottom: 0;"><a href="http://beian.miit.gov.cn/">${beian}</a></p>
-        <p style="display: inline-flex; align-items: center;"><img style="height:20px;margin-right: 0.5rem;" src="/img/police.png" alt="police" height="20"/><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${
-          beian1.match(/\d+/)?.[0]
-        }" >${beian1}</a></p>
-        <p>Copyright © 2020 - ${new Date().getFullYear()} kuizuo. | Built with Docusaurus.</p>
-        `,
+      copyright: '<p>Site Theme from <a href="https://github.com/kuizuo">kuizuo</a></p>',
     },
     algolia: {
       appId: 'GV6YN1ODMO',

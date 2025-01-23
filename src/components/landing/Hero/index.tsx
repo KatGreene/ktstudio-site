@@ -1,12 +1,14 @@
 import { type Variants, motion } from 'framer-motion'
+import { useEffect, useRef } from 'react'
 
 import Translate from '@docusaurus/Translate'
 
-import HeroSvg from './img/ktstudio_icon.svg'
+import HeroSvg from './img/ktstudio_icon_outline.svg'
 
 import SocialLinks from '@site/src/components/SocialLinks'
 import { MovingButton } from '../../magicui/moving-border'
 import styles from './styles.module.css'
+import ImageCarousel from '@site/src/components/ImageCarousel'
 
 const variants: Variants = {
   visible: i => ({
@@ -22,6 +24,12 @@ const variants: Variants = {
   }),
   hidden: { opacity: 0, y: 30 },
 }
+
+// 在 variants 定义后添加示例图片数组
+const sampleImages = [
+  '/img/home-bg-feixiao-1.jpg',
+  '/img/home-bg-silwolf-1.jpg',
+]
 
 function Circle() {
   return <div className={styles.circle} />
@@ -57,6 +65,23 @@ function Name() {
 }
 
 export default function Hero() {
+  const circleRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const handleMouseMove = (e: MouseEvent) => {
+      if (!circleRef.current) return
+
+      const { clientX, clientY } = e
+      const moveX = (clientX - window.innerWidth / 2) * 0.01
+      const moveY = (clientY - window.innerHeight / 2) * 0.01
+
+      circleRef.current.style.transform = `translate(${moveX}px, ${moveY}px)`
+    }
+
+    window.addEventListener('mousemove', handleMouseMove)
+    return () => window.removeEventListener('mousemove', handleMouseMove)
+  }, [])
+
   return (
     <motion.div className={styles.hero}>
       <div className={styles.intro}>
@@ -70,17 +95,41 @@ export default function Hero() {
           <SocialLinks />
         </motion.div>
 
-        <motion.div className="mt-4 flex gap-2" custom={4} initial="hidden" animate="visible" variants={variants}>
+        <motion.div className="mt-4 flex gap-4" custom={4} initial="hidden" animate="visible" variants={variants}>
           <MovingButton
             borderRadius="1.25rem"
-            className="relative z-10 flex items-center rounded-2xl border border-solid border-neutral-200 bg-background px-5 py-3 text-center text-base font-semibold dark:border-neutral-800"
+            className="relative z-10 flex items-center rounded-2xl border border-solid border-neutral-200 bg-background px-5 py-3 text-center text-base font-bold dark:border-neutral-800"
+          >
+            <a href="/project" className="font-semibold">
+              <Translate id="hompage.hero.introduce">下载Demo</Translate>
+            </a>
+          </MovingButton>
+          <MovingButton
+            borderRadius="1.25rem"
+            className="font-slim relative z-10 flex items-center rounded-2xl border border-solid border-neutral-200 bg-background px-5 py-3 text-center text-base dark:border-neutral-800"
           >
             <a href="/about" className="font-semibold">
               <Translate id="hompage.hero.introduce">开发者的话</Translate>
             </a>
           </MovingButton>
         </motion.div>
+
+        <motion.div
+          className="mt-8 w-full max-w-3xl"
+          custom={5}
+          initial="hidden"
+          animate="visible"
+          variants={variants}
+        >
+          <ImageCarousel
+            images={sampleImages}
+            interval={5000}
+            borderRadius={20}
+            blurAmount={0}
+          />
+        </motion.div>
       </div>
+
       <motion.div className={styles.background}>
         <HeroSvg />
         <Circle />

@@ -1,8 +1,8 @@
 kuizuo:
-  name: KatGreene
-  title: 《KT Studio》开发者
+  name: KT Studio
+  title: 《KT Studio》开发者的网站
   url: https://github.com/katgreene
-  image_url: https://kuizuo.cn/img/logo.png
+  image_url: img/logo.png
   email: cgz_catgreen1234@outlook.com
   socials:
     github: katgreene
