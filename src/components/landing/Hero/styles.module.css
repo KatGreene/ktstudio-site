@@ -75,7 +75,7 @@
   }
 
   .background svg {
-    @apply w-[90%] h-auto;
+    @apply w-[20%] h-auto;
   }
 
   .box {
