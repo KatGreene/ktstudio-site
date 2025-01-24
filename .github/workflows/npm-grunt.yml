@@ -25,15 +25,19 @@ jobs:
         cache: 'pnpm'
 
     - name: Setup pnpm
-      uses: pnpm/action-setup@v2
+      uses: pnpm/action-setup@v4.0.0
       with:
-        version: 7
+        version: latest
 
-    - name: Check pnpm installation
-      run: pnpm --version
+    - name: Install pnpm globally
+      run: |
+        corepack enable
+        corepack prepare pnpm@latest --activate
 
     - name: Install dependencies
-      run: pnpm install
+      run: |
+        pnpm install
 
     - name: Build
-      run: pnpm start
+      run: |
+        pnpm start
