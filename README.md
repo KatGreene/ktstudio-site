@@ -41,7 +41,7 @@
 
 ```bash
 ├── blog                           # 博客
-│   ├── first-blog.md
+│   ├── feature-02.md
 ├── docs                           # 文档/笔记
 │   └── doc.md
 ├── data

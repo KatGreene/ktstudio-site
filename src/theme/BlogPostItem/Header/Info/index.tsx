@@ -59,12 +59,12 @@ export default function BlogPostItemHeaderInfo({ className }: Props): JSX.Elemen
   return (
     <div className={cn('inline-flex flex-wrap gap-1.5 text-base', 'margin-bottom--md', className)}>
       <div className="inline-flex items-center gap-1">
-        <Icon icon="ri:calendar-line" />
-        <DateTime date={date} formattedDate={formatDate(date)} />
+        {/*<Icon icon="ri:calendar-line" />*/}
+        {/*<DateTime date={date} formattedDate={formatDate(date)} />*/}
       </div>
       {tagsExists && (
         <div className="inline-flex items-center gap-1">
-          <Icon icon="ri:price-tag-3-line" />
+          {/*<Icon icon="ri:price-tag-3-line" />*/}
           <div className={cn('truncate', 'inline-flex text-center')}>
             {tags.slice(0, 3).map(({ label, description, permalink: tagPermalink }, index) => {
               return (
@@ -84,8 +84,8 @@ export default function BlogPostItemHeaderInfo({ className }: Props): JSX.Elemen
       )}
       {typeof readingTime !== 'undefined' && (
         <div className="inline-flex items-center gap-1">
-          <Icon icon="ri:time-line" />
-          <ReadingTime readingTime={readingTime} />
+          {/*<Icon icon="ri:time-line" />*/}
+          {/*<ReadingTime readingTime={readingTime} />*/}
         </div>
       )}
     </div>

@@ -65,7 +65,7 @@ function BlogListPageContent(props: Props) {
   return (
     <MyLayout>
       <h2 className="h2 mb-4 flex items-center justify-center text-center">
-        <Translate id="theme.blog.title.new">游戏特点</Translate>
+        <Translate id="theme.blog.title.new">了解 KT Studio</Translate>
       </h2>
       <p className="mb-4 text-center">欢迎来到 KT Studio</p>
       <ViewTypeSwitch viewType={viewType} toggleViewType={toggleViewType} />

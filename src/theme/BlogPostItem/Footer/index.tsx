@@ -47,10 +47,10 @@ export default function BlogPostItemFooter(): JSX.Element | null {
           )} */}
           {date && (
             <>
-              <Icon icon="ri:calendar-line" />
-              <time dateTime={date} itemProp="datePublished">
-                {formatDate(date)}
-              </time>
+              {/*<Icon icon="ri:calendar-line" />*/}
+              {/*<time dateTime={date} itemProp="datePublished">*/}
+              {/*  {formatDate(date)}*/}
+              {/*</time>*/}
             </>
           )}
           {tagsExists && (
@@ -65,10 +65,10 @@ export default function BlogPostItemFooter(): JSX.Element | null {
           )}
           {readingTime && (
             <>
-              <Icon icon="ri:time-line" />
-              <span className={cn(styles.blogPostReadTime, 'blog__readingTime')}>
-                <ReadingTime readingTime={readingTime} />
-              </span>
+              {/*<Icon icon="ri:time-line" />*/}
+              {/*<span className={cn(styles.blogPostReadTime, 'blog__readingTime')}>*/}
+              {/*  <ReadingTime readingTime={readingTime} />*/}
+              {/*</span>*/}
             </>
           )}
           {truncatedPost && (

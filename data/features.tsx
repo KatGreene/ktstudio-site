@@ -19,7 +19,7 @@ const FEATURES: FeatureItem[] = [
     }),
     description: (
       <Translate>
-        游玩 KT Studio 是完全免费
+        KT Studio 仅做个人非商业用途
       </Translate>
     ),
     header: <WebDeveloperSvg className="h-auto w-full" height={150} role="img" />,
@@ -28,11 +28,11 @@ const FEATURES: FeatureItem[] = [
   {
     title: translate({
       id: 'homepage.feature.spider',
-      message: '会点',
+      message: '联动',
     }),
     description: (
       <Translate>
-        作为一名
+        双厨狂喜
       </Translate>
     ),
     header: <SpiderSvg className="h-auto w-full" height={150} role="img" />,
@@ -40,11 +40,11 @@ const FEATURES: FeatureItem[] = [
   {
     title: translate({
       id: 'homepage.feature.enthusiast',
-      message: '开源',
+      message: '现代与次世代',
     }),
     description: (
       <Translate>
-        作为一名
+        捏🐴🐴的，太摩登🌶️！
       </Translate>
     ),
     header: <OpenSourceSvg className="h-auto w-full" height={150} role="img" />,

@@ -52,7 +52,7 @@
 }
 
 .circle {
-  @apply absolute -top-24 -right-48 w-full h-full rounded-bl-full opacity-60;
+  @apply absolute -top-24 -right-0 w-full h-full rounded-bl-full opacity-60;
   background: linear-gradient(
     45deg,
     var(--circle-gradient-1),
@@ -62,7 +62,11 @@
   background-size: 300% 300%;
   filter: blur(0px);
   z-index: 2;
-  animation: gradientShift 3s ease-in-out infinite, blurAnimation 6s ease-in-out infinite;;
+  animation:
+          gradientShift 3s ease-in-out infinite,
+          blurAnimation 6s ease-in-out infinite;
+          /*floatUpDownAnimation 12s ease-in-out infinite,*/
+          /*floatLeftRightAnimation 7s ease-in-out infinite;*/
   transform-origin: center;
   transition: transform 0.2s ease-out;
 }
@@ -81,28 +85,52 @@
 
 @keyframes blurAnimation {
   0% {
-    filter: blur(20px);
+    filter: blur(80px);
   }
-  50% {
+  25% {
     filter: blur(128px);
   }
   100% {
-    filter: blur(20px);
+    filter: blur(80px);
+  }
+}
+
+@keyframes floatUpDownAnimation {
+  0% {
+    @apply -top-12;
+  }
+  50% {
+    @apply -top-32;
+  }
+  100% {
+    @apply -top-12;
+  }
+}
+
+@keyframes floatLeftRightAnimation {
+  0% {
+    @apply -right-48;
+  }
+  50% {
+    @apply -right-64;
+  }
+  100% {
+    @apply -right-48;
   }
 }
 
 /* 添加亮色模式的渐变颜色 */
 :root {
-  --circle-gradient-1: rgb(45, 196, 251);
-  --circle-gradient-2: rgb(0, 139, 252);
-  --circle-gradient-3: rgb(85, 255, 210);
+  --circle-gradient-1: rgba(45, 196, 251, 0.76);
+  --circle-gradient-2: rgba(0, 139, 252, 0.69);
+  --circle-gradient-3: rgba(85, 255, 210, 0.76);
 }
 
 /* 添加暗色模式的渐变颜色 */
 [data-theme='dark'] {
-  --circle-gradient-1: rgba(34, 240, 255, 0.65);
-  --circle-gradient-2: rgba(37, 150, 255, 0.741);
-  --circle-gradient-3: rgba(42, 66, 255, 0.411);
+  --circle-gradient-1: rgba(34, 240, 255, 0.37);
+  --circle-gradient-2: rgba(37, 150, 255, 0.39);
+  --circle-gradient-3: rgba(42, 66, 255, 0.22);
 }
 
 .box {

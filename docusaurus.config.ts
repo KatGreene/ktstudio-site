@@ -15,7 +15,7 @@ const config: Config = {
   organizationName: 'katgreene',
   projectName: 'blog',
   customFields: {
-    bio: '道阻且长，行则将至',
+    bio: ' ',
     description:
       '是一个由KatGreene创建的个人博客，主要分享编程开发知识和项目，该网站基于 React 驱动的静态网站生成器 Docusaurus 构建。',
   },
@@ -203,9 +203,9 @@ const config: Config = {
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
           `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
-        blogDescription: '美丽的人，美丽的风景',
+        blogDescription: '了解 KT Studio',
         blogSidebarCount: 10,
-        blogSidebarTitle: '画廊',
+        blogSidebarTitle: '了解 KT Studio',
         postsPerPage: 12,
         showReadingTime: true,
         readingTime: ({ content, frontMatter, defaultReadingTime }) =>

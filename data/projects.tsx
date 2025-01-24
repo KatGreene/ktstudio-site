@@ -68,12 +68,12 @@ export type Project = {
 
 export const Tags: Record<TagType, Tag> = {
   favorite: {
-    label: '喜爱',
+    label: '游玩演示',
     description: '我最喜欢的网站，一定要去看看!',
     color: '#e9669e',
   },
   opensource: {
-    label: '开源',
+    label: '游玩教程',
     description: '开源项目可以提供灵感!',
     color: '#39ca30',
   },
@@ -83,7 +83,7 @@ export const Tags: Record<TagType, Tag> = {
     color: '#dfd545',
   },
   design: {
-    label: '设计',
+    label: '下载',
     description: '设计漂亮的网站!',
     color: '#a44fb7',
   },

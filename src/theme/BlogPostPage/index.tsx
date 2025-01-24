@@ -25,7 +25,6 @@ function BlogPostPageContent({
     hide_table_of_contents: hideTableOfContents,
     toc_min_heading_level: tocMinHeadingLevel,
     toc_max_heading_level: tocMaxHeadingLevel,
-    hide_comment: hideComment,
   } = frontMatter
 
   return (
@@ -46,7 +45,6 @@ function BlogPostPageContent({
           <BlogPostPaginator nextItem={nextItem} prevItem={prevItem} />
         </div>
       )}
-      {!hideComment && <Comment />}
       <BackToTopButton />
     </BlogLayout>
   )
