@@ -6,7 +6,7 @@
     "items": [
         {
             "id": "https://katgreene.github.io/blog/develop/feature-01",
-            "content_html": "<span style=\"font-size:48px\">可移动的卡通渲染工作室</span>\n<span style=\"font-size:24px\"><blockquote>\n<p>采用最新的角色渲染技术，使得游戏中的每一个角色细节都栩栩如生。\n无论是角色的表情变化，还是卡通材质的光影与特效，都力求达到<strong style=\"color:#6399ff\">原画级视觉体验</strong>。</p>\n</blockquote></span>\n<video src=\"/img/site-vid-theherta-01.mp4\" style=\"width:100%;height:auto;border-radius:8px\" controls=\"\" autoplay=\"\" muted=\"\" loop=\"\"><p>您的浏览器不支持 video 标签。</p></video>",
+            "content_html": "<span style=\"font-size:28px\">可移动的<strong style=\"color:#6399ff\">卡通渲染工作室</strong></span>\n<span style=\"font-size:20px\"><blockquote>\n<p>采用最新的角色渲染技术，使得游戏中的每一个角色细节都栩栩如生。\n无论是角色的表情变化，还是卡通材质的光影与特效，都力求达到<strong style=\"color:#6399ff\">原画级视觉体验</strong>。</p>\n</blockquote></span>\n<video src=\"/img/site-vid-theherta-01.mp4\" style=\"width:100%;height:auto;border-radius:8px\" controls=\"\" autoplay=\"\" muted=\"\" loop=\"\"><p>您的浏览器不支持 video 标签。</p></video>",
             "url": "https://katgreene.github.io/blog/develop/feature-01",
             "title": "卡通角色渲染",
             "summary": "可移动的卡通渲染工作室",
