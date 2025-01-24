@@ -14,7 +14,7 @@
         <link href="https://ktstudio.top/blog/develop/feature-01"/>
         <updated>2025-01-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[可移动的卡通渲染工作室]]></summary>
-        <content type="html"><![CDATA[<span style="font-size:28px">可移动的<strong style="color:#6399ff">卡通渲染工作室</strong></span>
+        <content type="html"><![CDATA[<div class="backButton_MCHS"><span></span></div><span style="font-size:28px">可移动的<strong style="color:#6399ff">卡通渲染工作室</strong></span>
 <span style="font-size:20px"><blockquote>
 <p>采用最新的角色渲染技术，使得游戏中的每一个角色细节都栩栩如生。
 无论是角色的表情变化，还是卡通材质的光影与特效，都力求达到<strong style="color:#6399ff">原画级视觉体验</strong>。</p>
@@ -22,42 +22,40 @@
 <video src="/img/site-vid-theherta-01.mp4" style="width:100%;height:auto;border-radius:8px" controls="" autoplay="" muted="" loop=""><p>您的浏览器不支持 video 标签。</p></video>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[动作交互]]></title>
+        <title type="html"><![CDATA[角色动作交互]]></title>
         <id>https://ktstudio.top/blog/develop/feature-02</id>
         <link href="https://ktstudio.top/blog/develop/feature-02"/>
         <updated>2025-01-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[导入音乐、操控角色、开始跳舞！]]></summary>
-        <content type="html"><![CDATA[<span style="font-size:48px">导入音乐、操控角色、开始跳舞！</span>
-<span style="font-size:24px"><blockquote>
-<p>采用最新的角色渲染技术，使得游戏中的每一个角色细节都栩栩如生。
-无论是角色的表情变化，还是卡通材质的光影与特效，都力求达到<strong style="color:#6399ff">原画级视觉体验</strong>。</p>
+        <summary type="html"><![CDATA[导入音乐、操控角色开始跳舞]]></summary>
+        <content type="html"><![CDATA[<div class="backButton_MCHS"><span></span></div><span style="font-size:28px">导入音乐、操控角色<strong style="color:#D44638">开始跳舞</strong></span>
+<span style="font-size:20px"><blockquote>
+<p>将喜欢的音乐导入游戏中，并且操控角色根据音乐的节奏舞蹈。每首音乐都会带来不同的<strong style="color:#D44638">互动体验</strong>！此外，游戏还内置<strong style="color:#D44638">实时网易云歌词</strong>。</p>
 </blockquote></span>
 <video src="/img/site-vid-silwolf-01.mp4" style="width:100%;height:auto;border-radius:8px" controls="" autoplay="" muted="" loop=""><p>您的浏览器不支持 video 标签。</p></video>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[音乐互动]]></title>
+        <title type="html"><![CDATA[场景音乐可视化]]></title>
         <id>https://ktstudio.top/blog/develop/feature-03</id>
         <link href="https://ktstudio.top/blog/develop/feature-03"/>
         <updated>2025-01-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[导入音乐并与角色、场景进行互动]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows与安卓平台]]></title>
-        <id>https://ktstudio.top/blog/develop/feature-04</id>
-        <link href="https://ktstudio.top/blog/develop/feature-04"/>
-        <updated>2025-01-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[支持Windows与安卓平台]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_vMh4" id="4">4<a href="https://ktstudio.top/blog/develop/feature-04#4" class="hash-link" aria-label="4的直接链接" title="4的直接链接">​</a></h2>
-<p>4</p>]]></content>
+        <summary type="html"><![CDATA[独一无二的音乐波动]]></summary>
+        <content type="html"><![CDATA[<div class="backButton_MCHS"><span></span></div><span style="font-size:28px">独一无二的<strong style="color:#6EFDDC">音乐波动</strong></span>
+<span style="font-size:20px"><blockquote>
+<p>独特的音乐可视化系统，让场景灯光与您<strong style="color:#6EFDDC">一起律动</strong>。</p>
+</blockquote></span>
+<img src="https://ktstudio.top/img/bg-music-01.jpg" style="width:100%;height:auto;border-radius:8px">]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[跳个健身操]]></title>
         <id>https://ktstudio.top/blog/develop/feature-05</id>
         <link href="https://ktstudio.top/blog/develop/feature-05"/>
         <updated>2025-01-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[一起跳个健身操]]></summary>
-        <content type="html"><![CDATA[<p>一起跳个健身操</p>
-<h2 class="anchor anchorWithHideOnScrollNavbar_vMh4" id="5">5<a href="https://ktstudio.top/blog/develop/feature-05#5" class="hash-link" aria-label="5的直接链接" title="5的直接链接">​</a></h2>]]></content>
+        <summary type="html"><![CDATA[一起来跳健身操]]></summary>
+        <content type="html"><![CDATA[<div class="backButton_MCHS"><span></span></div><span style="font-size:28px">一起来跳<strong style="color:#4eec99">健身操</strong></span>
+<span style="font-size:20px"><blockquote>
+<p>内置多套来自官方的健身操动作，跟着喜欢的音乐一起活动活动吧！</p>
+</blockquote></span>
+<img src="https://ktstudio.top/img/home-bg-feixiao-1.jpg" style="width:100%;height:auto;border-radius:8px">]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[场景渲染]]></title>
@@ -65,8 +63,22 @@
         <link href="https://ktstudio.top/blog/develop/feature-06"/>
         <updated>2025-01-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[高度定制化渲染的游戏场景]]></summary>
-        <content type="html"><![CDATA[<p>6</p>
-<h2 class="anchor anchorWithHideOnScrollNavbar_vMh4" id="6">6<a href="https://ktstudio.top/blog/develop/feature-06#6" class="hash-link" aria-label="6的直接链接" title="6的直接链接">​</a></h2>
-<p>直入正题，6</p>]]></content>
+        <content type="html"><![CDATA[<div class="backButton_MCHS"><span></span></div><span style="font-size:28px"><strong style="color:#BD6EFD">高度定制化渲染</strong>的游戏场景</span>
+<span style="font-size:20px"><blockquote>
+<p>来自游戏内的场景，现在以全新的画风出现在您面前！不仅如此，您还可以自由调整太阳光的方向。</p>
+</blockquote></span>
+<img src="https://ktstudio.top/img/bh-changletian-01.jpg" style="width:100%;height:auto;border-radius:8px">]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows与安卓平台]]></title>
+        <id>https://ktstudio.top/blog/develop/feature-04</id>
+        <link href="https://ktstudio.top/blog/develop/feature-04"/>
+        <updated>2025-01-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[支持Windows与安卓平台]]></summary>
+        <content type="html"><![CDATA[<div class="backButton_MCHS"><span></span></div><span style="font-size:28px">支持<strong style="color:#1296DB">Windows与安卓</strong></span>
+<span style="font-size:20px"><blockquote>
+<p>本游戏仍在深度开发中。目前支持Windows与安卓平台，欢迎大家下载体验！</p>
+</blockquote></span>
+<img src="https://ktstudio.top/img/bh-spacechamber-01.jpg" style="width:100%;height:auto;border-radius:8px">]]></content>
     </entry>
 </feed>
