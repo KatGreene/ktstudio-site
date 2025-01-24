@@ -4,8 +4,8 @@
   <ShortName>KT Studio</ShortName>
   <Description>Search KT Studio</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://katgreene.github.io/img/ktstudio_icon_rounded.ico</Image>
-  <Url type="text/html" method="get" template="https://katgreene.github.io/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://katgreene.github.io/opensearch.xml" />
-  <moz:SearchForm>https://katgreene.github.io/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://ktstudio.top/img/ktstudio_icon_rounded.ico</Image>
+  <Url type="text/html" method="get" template="https://ktstudio.top/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://ktstudio.top/opensearch.xml" />
+  <moz:SearchForm>https://ktstudio.top/</moz:SearchForm>
 </OpenSearchDescription>

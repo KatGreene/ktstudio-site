@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>KatGreene</title>
-        <link>https://katgreene.github.io/blog</link>
+        <link>https://ktstudio.top/blog</link>
         <description>feedId:41215011978385457+userId:41840354283324416</description>
         <lastBuildDate>Fri, 10 Jan 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -11,8 +11,8 @@
         <copyright>Copyright © 2025 KatGreene Built with Docusaurus.&lt;p&gt;&lt;a href="http://beian.miit.gov.cn/" class="footer_lin"&gt; &lt;/a&gt;&lt;/p&gt;</copyright>
         <item>
             <title><![CDATA[卡通角色渲染]]></title>
-            <link>https://katgreene.github.io/blog/develop/feature-01</link>
-            <guid>https://katgreene.github.io/blog/develop/feature-01</guid>
+            <link>https://ktstudio.top/blog/develop/feature-01</link>
+            <guid>https://ktstudio.top/blog/develop/feature-01</guid>
             <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[可移动的卡通渲染工作室]]></description>
             <content:encoded><![CDATA[<span style="font-size:28px">可移动的<strong style="color:#6399ff">卡通渲染工作室</strong></span>
@@ -24,8 +24,8 @@
         </item>
         <item>
             <title><![CDATA[动作交互]]></title>
-            <link>https://katgreene.github.io/blog/develop/feature-02</link>
-            <guid>https://katgreene.github.io/blog/develop/feature-02</guid>
+            <link>https://ktstudio.top/blog/develop/feature-02</link>
+            <guid>https://ktstudio.top/blog/develop/feature-02</guid>
             <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[导入音乐、操控角色、开始跳舞！]]></description>
             <content:encoded><![CDATA[<span style="font-size:48px">导入音乐、操控角色、开始跳舞！</span>
@@ -37,37 +37,37 @@
         </item>
         <item>
             <title><![CDATA[音乐互动]]></title>
-            <link>https://katgreene.github.io/blog/develop/feature-03</link>
-            <guid>https://katgreene.github.io/blog/develop/feature-03</guid>
+            <link>https://ktstudio.top/blog/develop/feature-03</link>
+            <guid>https://ktstudio.top/blog/develop/feature-03</guid>
             <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[导入音乐并与角色、场景进行互动]]></description>
         </item>
         <item>
             <title><![CDATA[Windows与安卓平台]]></title>
-            <link>https://katgreene.github.io/blog/develop/feature-04</link>
-            <guid>https://katgreene.github.io/blog/develop/feature-04</guid>
+            <link>https://ktstudio.top/blog/develop/feature-04</link>
+            <guid>https://ktstudio.top/blog/develop/feature-04</guid>
             <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[支持Windows与安卓平台]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_vMh4" id="4">4<a href="https://katgreene.github.io/blog/develop/feature-04#4" class="hash-link" aria-label="4的直接链接" title="4的直接链接">​</a></h2>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_vMh4" id="4">4<a href="https://ktstudio.top/blog/develop/feature-04#4" class="hash-link" aria-label="4的直接链接" title="4的直接链接">​</a></h2>
 <p>4</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[跳个健身操]]></title>
-            <link>https://katgreene.github.io/blog/develop/feature-05</link>
-            <guid>https://katgreene.github.io/blog/develop/feature-05</guid>
+            <link>https://ktstudio.top/blog/develop/feature-05</link>
+            <guid>https://ktstudio.top/blog/develop/feature-05</guid>
             <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[一起跳个健身操]]></description>
             <content:encoded><![CDATA[<p>一起跳个健身操</p>
-<h2 class="anchor anchorWithHideOnScrollNavbar_vMh4" id="5">5<a href="https://katgreene.github.io/blog/develop/feature-05#5" class="hash-link" aria-label="5的直接链接" title="5的直接链接">​</a></h2>]]></content:encoded>
+<h2 class="anchor anchorWithHideOnScrollNavbar_vMh4" id="5">5<a href="https://ktstudio.top/blog/develop/feature-05#5" class="hash-link" aria-label="5的直接链接" title="5的直接链接">​</a></h2>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[场景渲染]]></title>
-            <link>https://katgreene.github.io/blog/develop/feature-06</link>
-            <guid>https://katgreene.github.io/blog/develop/feature-06</guid>
+            <link>https://ktstudio.top/blog/develop/feature-06</link>
+            <guid>https://ktstudio.top/blog/develop/feature-06</guid>
             <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[高度定制化渲染的游戏场景]]></description>
             <content:encoded><![CDATA[<p>6</p>
-<h2 class="anchor anchorWithHideOnScrollNavbar_vMh4" id="6">6<a href="https://katgreene.github.io/blog/develop/feature-06#6" class="hash-link" aria-label="6的直接链接" title="6的直接链接">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_vMh4" id="6">6<a href="https://ktstudio.top/blog/develop/feature-06#6" class="hash-link" aria-label="6的直接链接" title="6的直接链接">​</a></h2>
 <p>直入正题，6</p>]]></content:encoded>
         </item>
     </channel>
