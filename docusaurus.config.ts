@@ -10,7 +10,7 @@ const beian1 = ' '
 const config: Config = {
   title: 'KT Studio',
   url: 'https://katgreene.github.io',
-  baseUrl: '/ktstudio-site/',
+  baseUrl: '/',
   favicon: 'img/ktstudio_icon_rounded.ico',
   organizationName: 'katgreene',
   projectName: 'blog',
