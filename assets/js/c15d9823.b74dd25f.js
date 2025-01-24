@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[8146],{9328:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/blog","page":1,"postsPerPage":12,"totalPages":1,"totalCount":6,"blogDescription":"\u4e86\u89e3 KT Studio","blogTitle":"Blog"}}')}}]);
