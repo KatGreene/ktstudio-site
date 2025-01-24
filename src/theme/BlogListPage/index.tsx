@@ -65,10 +65,10 @@ function BlogListPageContent(props: Props) {
   return (
     <MyLayout>
       <h2 className="h2 mb-4 flex items-center justify-center text-center">
-        <Translate id="theme.blog.title.new">了解 KT Studio</Translate>
+        <Translate id="theme.blog.title.new">欢迎来到 KT Studio</Translate>
       </h2>
-      <p className="mb-4 text-center">欢迎来到 KT Studio</p>
-      <ViewTypeSwitch viewType={viewType} toggleViewType={toggleViewType} />
+      <p className="mb-4 text-center">一款《崩坏：星穹铁道》同人游戏</p>
+      {/*<ViewTypeSwitch viewType={viewType} toggleViewType={toggleViewType} />*/}
       <div className="row">
         <div className="col col--12">
           <>
@@ -77,9 +77,9 @@ function BlogListPageContent(props: Props) {
                 <BlogPostItems items={items} />
               </div>
             )}
-            {isGridView && <BlogPostGridItems items={items} />}
+            {/*{isGridView && <BlogPostGridItems items={items} />}*/}
           </>
-          <BlogListPaginator metadata={metadata} />
+          {/*<BlogListPaginator metadata={metadata} />*/}
         </div>
       </div>
       <BackToTopButton />

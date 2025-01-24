@@ -5,6 +5,8 @@ description: 可移动的卡通渲染工作室
 image: "/img/bg-theherta-01.jpg"
 ---
 
+<!-- truncate -->
+
 <span style={{ fontSize: '28px' }}>可移动的<strong style={{ color: '#6399ff' }}>卡通渲染工作室</strong></span>
 
 <span style={{ fontSize: '20px' }}>

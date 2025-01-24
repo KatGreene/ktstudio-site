@@ -6,7 +6,7 @@ import { Section } from '../Section'
 
 export default function FeaturesSection() {
   return (
-    <Section title={<Translate id="homepage.feature.title">游戏特点</Translate>}>
+    <Section title={<Translate id="homepage.feature.title">三大特点</Translate>}>
       <BentoGrid className="mx-auto w-full">
         {features.map((item, i) => (
           <BentoGridItem

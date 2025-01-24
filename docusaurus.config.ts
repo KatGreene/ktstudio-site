@@ -52,9 +52,10 @@ const config: Config = {
       },
       hideOnScroll: true,
       items: [
-        { label: '游戏', position: 'right', to: 'blog' },
-        { label: '下载', position: 'right', to: 'project' },
-        // { label: '友链', position: 'right', to: 'friends' },
+        { label: '首页', position: 'left', to: '/' },
+        { label: '了解 KT Studio', position: 'right', to: 'blog' },
+        { label: '立即开玩', position: 'right', to: 'project' },
+        { label: '用户协议', position: 'right', to: 'kt-studio-user-agreement' },
         { label: '关于', position: 'right', to: 'about' },
         // {
         //   label: '更多',
@@ -77,13 +78,14 @@ const config: Config = {
         {
           title: '游戏',
           items: [
-            { label: '特点介绍', to: 'blog' },
+            { label: '了解 KT Studio', to: 'blog' },
           ],
         },
         {
           title: '下载',
           items: [
-            { label: '立即开始', to: '/project' },
+            { label: '立即开玩', to: '/project' },
+            { label: 'KT Studio 用户协议', position: 'right', to: 'kt-studio-user-agreement' },
           ],
         },
         {
@@ -105,7 +107,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: '<p>Site Theme from <a href="https://github.com/kuizuo">kuizuo</a></p>',
+      copyright: '<p>网站主题来自 <a href="https://github.com/kuizuo">kuizuo</a></p>',
     },
     algolia: {
       appId: 'GV6YN1ODMO',

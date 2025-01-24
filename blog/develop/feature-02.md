@@ -1,15 +1,16 @@
 ﻿---
-title: 动作交互
+title: 角色动作交互
 date: 2025-01-10
-description: 导入音乐、操控角色、开始跳舞！
+description: 导入音乐、操控角色开始跳舞
 image: "/img/home-bg-silwolf-1.jpg"
 ---
 
-<span style={{ fontSize: '48px' }}>导入音乐、操控角色、开始跳舞！</span>
+<!-- truncate -->
 
-<span style={{ fontSize: '24px' }}>
-> 采用最新的角色渲染技术，使得游戏中的每一个角色细节都栩栩如生。
-无论是角色的表情变化，还是卡通材质的光影与特效，都力求达到<strong style={{ color: '#6399ff' }}>原画级视觉体验</strong>。
+<span style={{ fontSize: '28px' }}>导入音乐、操控角色<strong style={{ color: '#D44638' }}>开始跳舞</strong></span>
+
+<span style={{ fontSize: '20px' }}>
+> 将喜欢的音乐导入游戏中，并且操控角色根据音乐的节奏舞蹈。每首音乐都会带来不同的<strong style={{ color: '#D44638' }}>互动体验</strong>！此外，游戏还内置<strong style={{ color: '#D44638' }}>实时网易云歌词</strong>。
 </span>
 
 

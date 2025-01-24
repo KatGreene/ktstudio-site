@@ -1,38 +1,38 @@
 export const projects: Project[] = [
   {
     title: '安卓平台下载',
-    description: '🦖 基于 Docusaurus 静态网站生成器实现个人博客',
-    preview: '/img/project/blog.png',
-    website: 'https://kuizuo.cn',
-    source: 'https://github.com/kuizuo/blog',
-    tags: ['opensource', 'design', 'favorite'],
+    description: '内测阶段，暂不开放',
+    preview: '/img/bg-acheron-01-2.jpg',
+    website: '/project',
+    // source: 'https://github.com/kuizuo/blog',
+    tags: ['personal'],
     type: 'web',
   },
   {
     title: 'Windows平台下载',
-    description: '基于 Babel 对 JavaScript 混淆代码还原的工具',
-    preview: '/img/project/js-deobfuscator.png',
-    website: 'https://js-deobfuscator.vercel.app',
-    source: 'https://github.com/kuizuo/js-deobfuscator',
-    tags: ['opensource', 'favorite'],
+    description: '内测阶段，暂不开放',
+    preview: '/img/bg-acheron-02.jpg',
+    website: '/project',
+    // source: 'https://github.com/kuizuo/js-deobfuscator',
+    tags: ['personal'],
     type: 'web',
   },
   {
     title: 'QQ群下载',
-    description: '基于 Babel 对 JavaScript 混淆代码还原的工具',
-    preview: '/img/project/js-deobfuscator.png',
-    website: 'https://js-deobfuscator.vercel.app',
-    source: 'https://github.com/kuizuo/js-deobfuscator',
-    tags: ['opensource', 'favorite'],
+    description: '加入内测QQ群',
+    preview: '/img/bg-theherta-03.jpg',
+    website: '/project',
+    // source: 'https://github.com/kuizuo/js-deobfuscator',
+    tags: ['opensource'],
     type: 'web',
   },
   {
     title: '联系作者',
-    description: '基于 Babel 对 JavaScript 混淆代码还原的工具',
-    preview: '/img/project/js-deobfuscator.png',
-    website: 'https://js-deobfuscator.vercel.app',
-    source: 'https://github.com/kuizuo/js-deobfuscator',
-    tags: ['opensource', 'favorite'],
+    description: '添加QQ或微信好友',
+    preview: '/img/bg-theherta-02.jpg',
+    website: '/project',
+    // source: 'https://github.com/kuizuo/js-deobfuscator',
+    tags: ['opensource'],
     type: 'web',
   }
 ]
@@ -48,7 +48,7 @@ export type TagType = 'favorite' | 'opensource' | 'product' | 'design' | 'large'
 export type ProjectType = 'web' | 'app' | 'commerce' | 'personal' | 'toy' | 'other'
 
 export const projectTypeMap = {
-  web: '选择下载方式',
+  web: '相关链接',
   app: '💫 应用',
   commerce: '商业项目',
   personal: '👨‍💻 个人',
@@ -73,9 +73,14 @@ export const Tags: Record<TagType, Tag> = {
     color: '#e9669e',
   },
   opensource: {
-    label: '游玩教程',
-    description: '开源项目可以提供灵感!',
+    label: '开放中',
+    description: '已开放的链接!',
     color: '#39ca30',
+  },
+  personal: {
+    label: '未开放',
+    description: '未开放的链接!',
+    color: '#ca3030',
   },
   product: {
     label: '产品',
@@ -91,11 +96,6 @@ export const Tags: Record<TagType, Tag> = {
     label: '大型',
     description: '大型项目，原多于平均数的页面',
     color: '#8c2f00',
-  },
-  personal: {
-    label: '个人',
-    description: '个人项目',
-    color: '#12affa',
   },
 }
 

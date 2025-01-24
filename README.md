@@ -1,3 +1,9 @@
+## 这里是《KT Studio》的游戏网站，热烈欢迎！
+
+> 本网站基于“愧怍的个人博客”构建，非常感谢 <a href="https://github.com/kuizuo">kuizuo</a> 大佬提供的美丽主题
+
+以下是项目原Readme：
+
 <h2 align="center">
 愧怍的个人博客
 </h2>

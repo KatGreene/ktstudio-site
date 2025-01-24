@@ -13,11 +13,11 @@ import styles from './styles.module.css'
 
 const TITLE = translate({
   id: 'theme.project.title',
-  message: '下载',
+  message: '启动 KT Studio',
 })
 const DESCRIPTION = translate({
   id: 'theme.project.description',
-  message: '目前支持安卓与Windows',
+  message: '目前在内测阶段，暂无公开下载链接',
 })
 
 // const GITHUB_URL = 'https://github.com/kuizuo'

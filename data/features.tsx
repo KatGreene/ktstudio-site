@@ -1,8 +1,8 @@
 import Translate, { translate } from '@docusaurus/Translate'
 import { Icon } from '@iconify/react'
-import OpenSourceSvg from '@site/static/svg/undraw_open_source.svg'
-import SpiderSvg from '@site/static/svg/undraw_spider.svg'
-import WebDeveloperSvg from '@site/static/svg/undraw_web_developer.svg'
+import OpenSourceSvg from '@site/src/components/landing/Hero/img/ktstudio_icon_gradient.svg'
+import SpiderSvg from '@site/src/components/landing/Hero/img/ktstudio_icon_outline.svg'
+import WebDeveloperSvg from '@site/src/components/landing/Hero/img/ktstudio_icon.svg'
 
 export type FeatureItem = {
   title: string | React.ReactNode
@@ -28,11 +28,11 @@ const FEATURES: FeatureItem[] = [
   {
     title: translate({
       id: 'homepage.feature.spider',
-      message: '联动',
+      message: '多厨狂喜',
     }),
     description: (
       <Translate>
-        双厨狂喜
+        可持续性梦幻联动
       </Translate>
     ),
     header: <SpiderSvg className="h-auto w-full" height={150} role="img" />,

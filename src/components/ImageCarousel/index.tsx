@@ -36,28 +36,27 @@ export default function ImageCarousel({
         paddingBottom: '56.25%' // 16:9 宽高比
       }}
     >
-      <AnimatePresence mode="wait">
-        <motion.img
-          key={currentIndex}
-          src={images[currentIndex]}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ 
-            duration: 0.5,
-            ease: "easeInOut"
-          }}
-          style={{
-            width: '100%',
-            height: '100%',
-            objectFit: 'cover',
-            filter: `blur(${blurAmount}px)`,
-            position: 'absolute',
-            top: 0,
-            left: 0,
-          }}
-        />
-      </AnimatePresence>
+        <AnimatePresence mode="wait">
+            <motion.img
+                key={currentIndex}
+                src={images[currentIndex]}
+                initial={{ opacity: 0, filter: `blur(${blurAmount}px)` }}
+                animate={{ opacity: 1, filter: `blur(0px)` }}
+                exit={{ opacity: 0, filter: `blur(${blurAmount}px)` }}
+                transition={{
+                    duration: 0.4,
+                    ease: "easeInOut"
+                }}
+                style={{
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover',
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                }}
+            />
+        </AnimatePresence>
     </div>
   )
 } 

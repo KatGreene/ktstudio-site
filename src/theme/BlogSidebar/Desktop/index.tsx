@@ -39,11 +39,11 @@ export default function BlogSidebarDesktop({ sidebar }: Props): JSX.Element {
           message: 'Blog recent posts navigation',
           description: 'The ARIA label for recent posts in the blog sidebar',
         })}
-        style={{ opacity: isHovered ? 1 : 0 }}
+        style={{ opacity: isHovered ? 1 : 1}}
       >
-        <div className={styles.backButton} onClick={handleBack}>
-          <Icon icon="ri:arrow-go-back-line" />
-        </div>
+        {/*<div className={styles.backButton} onClick={handleBack}>*/}
+        {/*  <Icon icon="ri:arrow-go-back-line" />*/}
+        {/*</div>*/}
 
         <Link href="/blog" className={cn(styles.sidebarItemTitle, 'margin-bottom--sm')}>
           {sidebar.title}

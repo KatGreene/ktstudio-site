@@ -75,11 +75,11 @@ export default function NavbarContent(): JSX.Element {
         <>
           <NavbarItems items={rightItems} />
           <NavbarColorModeToggle className={styles.colorModeToggle} />
-          {!searchBarItem && (
-            <NavbarSearch>
-              <SearchBar />
-            </NavbarSearch>
-          )}
+          {/*{!searchBarItem && (*/}
+          {/*  <NavbarSearch>*/}
+          {/*    <SearchBar />*/}
+          {/*  </NavbarSearch>*/}
+          {/*)}*/}
         </>
       )}
     />

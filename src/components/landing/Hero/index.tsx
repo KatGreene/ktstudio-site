@@ -27,8 +27,12 @@ const variants: Variants = {
 
 // 在 variants 定义后添加示例图片数组
 const sampleImages = [
-  '/img/home-bg-feixiao-1.jpg',
+  "/img/bg-theherta-01.jpg",
+  "/img/bg-music-01.jpg",
   '/img/home-bg-silwolf-1.jpg',
+  '/img/home-bg-feixiao-1.jpg',
+  "/img/bh-spacechamber-01.jpg",
+  "/img/bh-changletian-01.jpg",
 ]
 
 function Circle() {
@@ -101,7 +105,7 @@ export default function Hero() {
             className="relative z-10 flex items-center rounded-2xl border border-solid border-neutral-200 bg-background px-5 py-3 text-center text-base font-bold dark:border-neutral-800"
           >
             <a href="/project" className="font-semibold">
-              <Translate id="hompage.hero.introduce">下载Demo</Translate>
+              <Translate id="hompage.hero.introduce">立即开玩</Translate>
             </a>
           </MovingButton>
           <MovingButton
@@ -123,9 +127,9 @@ export default function Hero() {
         >
           <ImageCarousel
             images={sampleImages}
-            interval={5000}
+            interval={4000}
             borderRadius={20}
-            blurAmount={0}
+            blurAmount={10}
           />
         </motion.div>
       </div>

@@ -8,6 +8,7 @@ export type Social = {
   zhihu?: string
   email?: string
   discord?: string
+  bilibili?: string
 }
 
 type SocialValue = {
@@ -24,9 +25,9 @@ const social: Social = {
   // wx: 'https://img.kuizuo.cn/wechat.png',
   // // qq: 'https://img.kuizuo.cn/qq.png',
   // // zhihu: 'https://www.zhihu.com/people/kuizuo',
-  // cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
-  // email: 'mailto:hi@kuizuo.cn',
-  // discord: 'https://discord.gg/M8cVcjDxkz',
+  cloudmusic: 'https://music.163.com/#/user/home?id=1547617963',
+  // email: 'cgz_catgreen1234@outlook.com',
+  bilibili: 'https://space.bilibili.com/1519308330',
 }
 
 const socialSet: Record<keyof Social, SocialValue> = {
@@ -52,7 +53,7 @@ const socialSet: Record<keyof Social, SocialValue> = {
     href: social.wx,
     title: '微信',
     icon: 'ri:wechat-2-line',
-    color: '#07c160',
+    color: '#6efddc',
   },
   zhihu: {
     href: social.zhihu,
@@ -65,6 +66,12 @@ const socialSet: Record<keyof Social, SocialValue> = {
     title: 'Discord',
     icon: 'ri:discord-line',
     color: '#5A65F6',
+  },
+  bilibili: {
+    href: social.bilibili,
+    title: 'Bilibili',
+    icon: 'ri:bilibili-line',
+    color: '#1296db',
   },
   qq: {
     href: social.qq,

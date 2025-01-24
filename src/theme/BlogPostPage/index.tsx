@@ -11,6 +11,8 @@ import BlogPostPageMetadata from '@theme/BlogPostPage/Metadata'
 import BlogPostPaginator from '@theme/BlogPostPaginator'
 import TOC from '@theme/TOC'
 import { type ReactNode } from 'react'
+import styles from "@site/src/theme/BlogSidebar/Desktop/styles.module.css";
+import {Icon} from "@iconify/react";
 
 function BlogPostPageContent({
   sidebar,
@@ -26,6 +28,9 @@ function BlogPostPageContent({
     toc_min_heading_level: tocMinHeadingLevel,
     toc_max_heading_level: tocMaxHeadingLevel,
   } = frontMatter
+  const handleBack = () => {
+    window.history.back()
+  }
 
   return (
     <BlogLayout
@@ -38,14 +43,19 @@ function BlogPostPageContent({
           : undefined
       }
     >
-      <BlogPostItem>{children}</BlogPostItem>
-
-      {(nextItem || prevItem) && (
-        <div className="margin-bottom--md">
-          <BlogPostPaginator nextItem={nextItem} prevItem={prevItem} />
+      <BlogPostItem>
+        <div className={styles.backButton} onClick={handleBack}>
+          <Icon icon="ri:arrow-go-back-line" />
         </div>
-      )}
-      <BackToTopButton />
+        {children}
+      </BlogPostItem>
+
+      {/*{(nextItem || prevItem) && (*/}
+      {/*  <div className="margin-bottom--md">*/}
+      {/*    <BlogPostPaginator nextItem={nextItem} prevItem={prevItem} />*/}
+      {/*  </div>*/}
+      {/*)}*/}
+      {/*<BackToTopButton />*/}
     </BlogLayout>
   )
 }

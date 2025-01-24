@@ -27,7 +27,7 @@ const Slider = ({ items }: { items: Project[] }) => {
                   {item.title}
                 </h2>
                 <p className="m-0 truncate text-primary">
-                  {removeHttp(item.website)}
+                  {/*{removeHttp(item.website)}*/}
                 </p>
               </div>
             </a>
