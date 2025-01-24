@@ -30,7 +30,10 @@ export default function ImageCarousel({
       className={styles.carouselContainer}
       style={{ 
         borderRadius: `${borderRadius}px`,
-        overflow: 'hidden'
+        overflow: 'hidden',
+        position: 'relative',
+        width: '100%',
+        paddingBottom: '56.25%' // 16:9 宽高比
       }}
     >
       <AnimatePresence mode="wait">
@@ -49,6 +52,9 @@ export default function ImageCarousel({
             height: '100%',
             objectFit: 'cover',
             filter: `blur(${blurAmount}px)`,
+            position: 'absolute',
+            top: 0,
+            left: 0,
           }}
         />
       </AnimatePresence>

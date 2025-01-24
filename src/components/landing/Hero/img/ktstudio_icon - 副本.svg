@@ -8,7 +8,7 @@
 
       .cls-2 {
         fill: url(#_未命名的渐变_56);
-        stroke: #191f38;
+        stroke: #000;
         stroke-miterlimit: 10;
       }
 

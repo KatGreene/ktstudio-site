@@ -3,7 +3,7 @@ import { useEffect, useRef } from 'react'
 
 import Translate from '@docusaurus/Translate'
 
-import HeroSvg from './img/ktstudio_icon_outline.svg'
+import HeroSvg from './img/ktstudio_icon.svg'
 
 import SocialLinks from '@site/src/components/SocialLinks'
 import { MovingButton } from '../../magicui/moving-border'

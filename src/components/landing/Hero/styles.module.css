@@ -6,7 +6,7 @@
 }
 
 .intro {
-  @apply p-4 pl-16 relative z-10;
+  @apply p-4 pl-64 relative z-10;
 }
 
 .intro > p {
@@ -20,7 +20,7 @@
 }
 
 .name {
-  --lighting-size: 300px;
+  --lighting-size: 450px;
   --lighting-color: var(--ifm-color-primary);
   --lighting-highlight-color: var(--ifm-color-primary-lightest);
 
@@ -43,7 +43,7 @@
 }
 
 .background {
-  @apply relative w-full h-[90%] grid place-items-center items-start;
+  @apply relative w-full h-[80%] grid place-items-center items-start;
   z-index: 5;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .circle {
-  @apply absolute -top-48 w-full h-full rounded-bl-full opacity-60;
+  @apply absolute -top-24 -right-48 w-full h-full rounded-bl-full opacity-60;
   background: linear-gradient(
     45deg,
     var(--circle-gradient-1),
@@ -60,9 +60,9 @@
     var(--circle-gradient-3)
   );
   background-size: 300% 300%;
-  filter: blur(64px);
-  z-index: -2;
-  animation: gradientShift 8s ease infinite;
+  filter: blur(0px);
+  z-index: 2;
+  animation: gradientShift 3s ease-in-out infinite, blurAnimation 6s ease-in-out infinite;;
   transform-origin: center;
   transition: transform 0.2s ease-out;
 }
@@ -76,6 +76,18 @@
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+
+@keyframes blurAnimation {
+  0% {
+    filter: blur(20px);
+  }
+  50% {
+    filter: blur(128px);
+  }
+  100% {
+    filter: blur(20px);
   }
 }
 
@@ -154,4 +166,14 @@
   width: 100%;
   height: 100%;
   box-shadow: none;
+}
+
+.icon {
+  position: relative;
+  width: 75%;
+  height: 75%;
+  z-index: -1;
+  /*margin-bottom: 150px;*/
+  /*margin-left: 200px;*/
+  margin: 20px auto;
 }

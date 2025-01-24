@@ -1,7 +1,7 @@
 .carouselContainer {
   position: relative;
-  width: 100%;
-  height: 20%;
+  width: 5%;
+  height: 5%;
   overflow: auto;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
 }
@@ -9,15 +9,13 @@
 /* 竖屏模式 - 当屏幕宽度小于高度时 */
 @media (orientation: portrait) {
   .carouselContainer {
-    width: 100%;
-    height: 20%;
+    width: 5%;
   }
 }
 
 /* 横屏模式 - 当屏幕宽度大于高度时 */
 @media (orientation: landscape) {
   .carouselContainer {
-    width: 100%;
-    height: 20%;
+    width: 5%;
   }
 } 
