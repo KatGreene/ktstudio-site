@@ -48,7 +48,6 @@ function Name() {
         e.currentTarget.style.setProperty('--y', `${e.clientY}px`)
       }}
     >
-      <Translate id="homepage.hero.greet">欢迎来到 </Translate>
       <span
         className={styles.name}
         onMouseMove={(e) => {
@@ -59,6 +58,7 @@ function Name() {
       >
         <Translate id="homepage.hero.name">KT Studio</Translate>
       </span>
+      <Translate id="homepage.hero.greet"> 启动！</Translate>
       <span className="ml-1"></span>
     </motion.div>
   )
@@ -88,7 +88,7 @@ export default function Hero() {
         <Name />
         <motion.p custom={2} initial="hidden" animate="visible" variants={variants} className="max-lg:px-4">
           <Translate id="homepage.hero.text">
-            一款《崩坏：星穹铁道》的同人游戏，由 KatGreene 开发
+            一款《崩坏：星穹铁道》同人游戏
           </Translate>
         </motion.p>
         <motion.div custom={3} initial="hidden" animate="visible" variants={variants}>
@@ -115,7 +115,7 @@ export default function Hero() {
         </motion.div>
 
         <motion.div
-          className="mt-8 w-full max-w-3xl"
+          className="mt-8 w-[85%] max-w-3xl"
           custom={5}
           initial="hidden"
           animate="visible"

@@ -6,7 +6,7 @@
 }
 
 .intro {
-  @apply p-4 pl-64 relative z-10;
+  @apply p-4 pl-48 relative z-10 -top-12;
 }
 
 .intro > p {
