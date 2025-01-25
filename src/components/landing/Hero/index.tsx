@@ -52,6 +52,10 @@ function Name() {
         e.currentTarget.style.setProperty('--y', `${e.clientY}px`)
       }}
     >
+      <span className={styles.noWrap}>
+        <Translate id="homepage.hero.greet">欢迎来到 </Translate>
+      </span>
+
       <span
         className={styles.name}
         onMouseMove={(e) => {
@@ -62,7 +66,7 @@ function Name() {
       >
         <Translate id="homepage.hero.name">KT Studio</Translate>
       </span>
-      <Translate id="homepage.hero.greet"> 启动！</Translate>
+
       <span className="ml-1"></span>
     </motion.div>
   )
@@ -99,24 +103,24 @@ export default function Hero() {
           <SocialLinks />
         </motion.div>
 
-        <motion.div className="mt-4 flex gap-4" custom={4} initial="hidden" animate="visible" variants={variants}>
-          <MovingButton
-            borderRadius="1.25rem"
-            className="relative z-10 flex items-center rounded-2xl border border-solid border-neutral-200 bg-background px-5 py-3 text-center text-base font-bold dark:border-neutral-800"
-          >
-            <a href="/project" className="font-semibold">
-              <Translate id="hompage.hero.introduce">立即开玩</Translate>
-            </a>
-          </MovingButton>
-          <MovingButton
-            borderRadius="1.25rem"
-            className="font-slim relative z-10 flex items-center rounded-2xl border border-solid border-neutral-200 bg-background px-5 py-3 text-center text-base dark:border-neutral-800"
-          >
-            <a href="/about" className="font-semibold">
-              <Translate id="hompage.hero.introduce">开发者的话</Translate>
-            </a>
-          </MovingButton>
-        </motion.div>
+        {/*<motion.div className="mt-4 flex gap-4" custom={4} initial="hidden" animate="visible" variants={variants}>*/}
+        {/*  <MovingButton*/}
+        {/*    borderRadius="1.25rem"*/}
+        {/*    className="relative z-10 flex items-center rounded-2xl border border-solid border-neutral-200 bg-background px-5 py-3 text-center text-base font-bold dark:border-neutral-800"*/}
+        {/*  >*/}
+        {/*    <a href="/project" className="font-semibold">*/}
+        {/*      <Translate id="hompage.hero.introduce">立即开玩</Translate>*/}
+        {/*    </a>*/}
+        {/*  </MovingButton>*/}
+        {/*  <MovingButton*/}
+        {/*    borderRadius="1.25rem"*/}
+        {/*    className="font-slim relative z-10 flex items-center rounded-2xl border border-solid border-neutral-200 bg-background px-5 py-3 text-center text-base dark:border-neutral-800"*/}
+        {/*  >*/}
+        {/*    <a href="/about" className="font-semibold">*/}
+        {/*      <Translate id="hompage.hero.introduce">开发者的话</Translate>*/}
+        {/*    </a>*/}
+        {/*  </MovingButton>*/}
+        {/*</motion.div>*/}
 
         <motion.div
           className="mt-8 w-[85%] max-w-3xl"

@@ -1,8 +1,8 @@
 import Translate, { translate } from '@docusaurus/Translate'
 import { Icon } from '@iconify/react'
-import OpenSourceSvg from '@site/src/components/landing/Hero/img/ktstudio_icon_gradient.svg'
-import SpiderSvg from '@site/src/components/landing/Hero/img/ktstudio_icon_outline.svg'
-import WebDeveloperSvg from '@site/src/components/landing/Hero/img/ktstudio_icon.svg'
+import OpenSourceSvg from '@site/src/components/landing/Hero/img/ktstudio_icon_ng.svg'
+import SpiderSvg from '@site/src/components/landing/Hero/img/ktstudio_icon_hsr.svg'
+import WebDeveloperSvg from '@site/src/components/landing/Hero/img/ktstudio_icon_free.svg'
 
 export type FeatureItem = {
   title: string | React.ReactNode

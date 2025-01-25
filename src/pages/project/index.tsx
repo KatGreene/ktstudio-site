@@ -17,7 +17,7 @@ const TITLE = translate({
 })
 const DESCRIPTION = translate({
   id: 'theme.project.description',
-  message: '目前在内测阶段，暂无公开下载链接',
+  message: '目前在内测阶段，请加入内测QQ群下载',
 })
 
 // const GITHUB_URL = 'https://github.com/kuizuo'

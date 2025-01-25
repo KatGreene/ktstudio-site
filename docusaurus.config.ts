@@ -55,7 +55,7 @@ const config: Config = {
         { label: '首页', position: 'left', to: '/' },
         { label: '了解 KT Studio', position: 'right', to: 'blog' },
         { label: '立即开玩', position: 'right', to: 'project' },
-        { label: '用户协议', position: 'right', to: 'kt-studio-user-agreement' },
+        // { label: '用户协议', position: 'right', to: 'kt-studio-user-agreement' },
         { label: '关于', position: 'right', to: 'about' },
         // {
         //   label: '更多',
@@ -79,13 +79,14 @@ const config: Config = {
           title: '游戏',
           items: [
             { label: '了解 KT Studio', to: 'blog' },
+            { label: 'KT Studio 用户协议', position: 'right', to: 'kt-studio-user-agreement' },
           ],
         },
         {
-          title: '下载',
+          title: '相关链接',
           items: [
             { label: '立即开玩', to: '/project' },
-            { label: 'KT Studio 用户协议', position: 'right', to: 'kt-studio-user-agreement' },
+            { label: '星穹铁道官网', to: 'https://sr.mihoyo.com/' },
           ],
         },
         {

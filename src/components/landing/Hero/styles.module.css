@@ -16,7 +16,13 @@
 }
 
 .hero_text {
-  font-size: calc(1.5em + 1.2vw);
+  white-space: nowrap;
+  font-size: calc(3em + 1.2vw);
+}
+
+.noWrap {
+  white-space: nowrap;
+  font-size: calc(0.25em + 1.1vw);
 }
 
 .name {
