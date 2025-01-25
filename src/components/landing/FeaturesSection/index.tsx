@@ -43,14 +43,14 @@ export default function FeaturesSection() {
       </div> */}
 
     <motion.div className="w-[35%] mt-12 mb-12 gap-4 m-auto" custom={4} initial="hidden" animate="visible" variants={variants}>
-      <MovingButton
-        borderRadius="1.25rem"
-        className="relative z-10 flex items-center rounded-2xl border border-solid border-neutral-200 bg-background px-5 py-3 text-center text-base font-bold dark:border-neutral-800"
-      >
-        <a href="/project" className="font-semibold">
-          <Translate id="hompage.hero.introduce">立即开玩</Translate>
-        </a>
-      </MovingButton>
+      {/*<MovingButton*/}
+      {/*  borderRadius="1.25rem"*/}
+      {/*  className="relative z-10 flex items-center rounded-2xl border border-solid border-neutral-200 bg-background px-5 py-3 text-center text-base font-bold dark:border-neutral-800"*/}
+      {/*>*/}
+      {/*  <a href="/project" className="font-semibold">*/}
+      {/*    <Translate id="hompage.hero.introduce">立即开玩</Translate>*/}
+      {/*  </a>*/}
+      {/*</MovingButton>*/}
       <MovingButton
         borderRadius="1.25rem"
         className="font-slim relative z-10 flex items-center rounded-2xl border border-solid border-neutral-200 bg-background px-5 py-3 text-center text-base dark:border-neutral-800"
