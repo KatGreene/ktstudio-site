@@ -252,7 +252,9 @@ const config: Config = {
 This Webisite Powered By Kz Blog.
 Written by Docusaurus, Coding with Love.
 --------
-Love what you do and do what you love.
+"Who like adventures, you gotta be people." The Midnight: Youth
+--------
+Creat
 `
 
       if (document.firstChild?.nodeType !== Node.COMMENT_NODE) {
