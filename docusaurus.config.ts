@@ -57,15 +57,15 @@ const config: Config = {
         { label: '立即开玩', position: 'right', to: 'project' },
         // { label: '用户协议', position: 'right', to: 'kt-studio-user-agreement' },
         { label: '关于', position: 'right', to: 'about' },
-        // {
-        //   label: '更多',
-        //   position: 'right',
-        //   items: [
-        //     { label: '归档', to: 'blog/archive' },
-        //     { label: '笔记', to: 'docs/skill' },
-        //     { label: '工具推荐', to: 'docs/tools' },
-        //   ],
-        // },
+        {
+          label: '更多',
+          position: 'right',
+          items: [
+            // { label: '归档', to: 'blog/archive' },
+            { label: '开发记录', to: 'https://katgreene.top' },
+            // { label: '工具推荐', to: 'docs/tools' },
+          ],
+        },
         // {
         //   type: 'localeDropdown',
         //   position: 'right',

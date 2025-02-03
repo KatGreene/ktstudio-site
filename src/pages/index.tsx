@@ -16,7 +16,7 @@ export default function Home() {
     <Layout title={tagline} description={description}>
       <main>
         <Hero />
-        <Particles className="absolute inset-0" quantity={200} ease={35} color="#999aaa" refresh />
+        <Particles className="absolute inset-0" quantity={200} ease={15} color="#999aaa" refresh />
 
         <div className="relative">
           <div className="mx-auto max-w-7xl bg-background lg:px-8">

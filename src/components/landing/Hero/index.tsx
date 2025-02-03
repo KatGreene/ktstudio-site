@@ -103,24 +103,24 @@ export default function Hero() {
           <SocialLinks />
         </motion.div>
 
-        {/*<motion.div className="mt-4 flex gap-4" custom={4} initial="hidden" animate="visible" variants={variants}>*/}
-        {/*  <MovingButton*/}
-        {/*    borderRadius="1.25rem"*/}
-        {/*    className="relative z-10 flex items-center rounded-2xl border border-solid border-neutral-200 bg-background px-5 py-3 text-center text-base font-bold dark:border-neutral-800"*/}
-        {/*  >*/}
-        {/*    <a href="/project" className="font-semibold">*/}
-        {/*      <Translate id="hompage.hero.introduce">立即开玩</Translate>*/}
-        {/*    </a>*/}
-        {/*  </MovingButton>*/}
-        {/*  <MovingButton*/}
-        {/*    borderRadius="1.25rem"*/}
-        {/*    className="font-slim relative z-10 flex items-center rounded-2xl border border-solid border-neutral-200 bg-background px-5 py-3 text-center text-base dark:border-neutral-800"*/}
-        {/*  >*/}
-        {/*    <a href="/about" className="font-semibold">*/}
-        {/*      <Translate id="hompage.hero.introduce">开发者的话</Translate>*/}
-        {/*    </a>*/}
-        {/*  </MovingButton>*/}
-        {/*</motion.div>*/}
+        <motion.div className="mt-4 flex gap-4" custom={4} initial="hidden" animate="visible" variants={variants}>
+          {/*<MovingButton*/}
+          {/*  borderRadius="1.25rem"*/}
+          {/*  className="relative z-10 flex items-center rounded-2xl border border-solid border-neutral-200 bg-background px-5 py-3 text-center text-base font-bold dark:border-neutral-800"*/}
+          {/*>*/}
+          {/*  <a href="/project" className="font-semibold">*/}
+          {/*    <Translate id="hompage.hero.introduce">立即开玩</Translate>*/}
+          {/*  </a>*/}
+          {/*</MovingButton>*/}
+          {/*<MovingButton*/}
+          {/*  borderRadius="1.25rem"*/}
+          {/*  className="font-slim relative z-10 flex items-center rounded-2xl border border-solid border-neutral-200 bg-background px-5 py-3 text-center text-base dark:border-neutral-800"*/}
+          {/*>*/}
+          {/*  <a href="https://katgreene.top/2025/01/23/kt-studio-details/" className="font-semibold">*/}
+          {/*    <Translate id="hompage.hero.introduce">技术美术开发记录</Translate>*/}
+          {/*  </a>*/}
+          {/*</MovingButton>*/}
+        </motion.div>
 
         <motion.div
           className="mt-8 w-[85%] max-w-3xl"
