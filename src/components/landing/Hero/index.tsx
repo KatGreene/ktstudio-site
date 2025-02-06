@@ -9,6 +9,8 @@ import SocialLinks from '@site/src/components/SocialLinks'
 import { MovingButton } from '../../magicui/moving-border'
 import styles from './styles.module.css'
 import ImageCarousel from '@site/src/components/ImageCarousel'
+import SplashCursor from '@site/src/components/SplashCursor'
+
 
 const variants: Variants = {
   visible: i => ({
@@ -91,57 +93,59 @@ export default function Hero() {
   }, [])
 
   return (
-    <motion.div className={styles.hero}>
-      <div className={styles.intro}>
-        <Name />
-        <motion.p custom={2} initial="hidden" animate="visible" variants={variants} className="max-lg:px-4">
-          <Translate id="homepage.hero.text">
-            一款《崩坏：星穹铁道》同人游戏
-          </Translate>
-        </motion.p>
-        <motion.div custom={3} initial="hidden" animate="visible" variants={variants}>
-          <SocialLinks />
-        </motion.div>
+      <>
+        <motion.div className={styles.hero}>
+          <div className={styles.intro}>
+            <Name/>
+            <motion.p custom={2} initial="hidden" animate="visible" variants={variants} className="max-lg:px-4">
+              <Translate id="homepage.hero.text">
+                一款《崩坏：星穹铁道》同人游戏
+              </Translate>
+            </motion.p>
+            <motion.div custom={3} initial="hidden" animate="visible" variants={variants}>
+              <SocialLinks/>
+            </motion.div>
 
-        <motion.div className="mt-4 flex gap-4" custom={4} initial="hidden" animate="visible" variants={variants}>
-          {/*<MovingButton*/}
-          {/*  borderRadius="1.25rem"*/}
-          {/*  className="relative z-10 flex items-center rounded-2xl border border-solid border-neutral-200 bg-background px-5 py-3 text-center text-base font-bold dark:border-neutral-800"*/}
-          {/*>*/}
-          {/*  <a href="/project" className="font-semibold">*/}
-          {/*    <Translate id="hompage.hero.introduce">立即开玩</Translate>*/}
-          {/*  </a>*/}
-          {/*</MovingButton>*/}
-          {/*<MovingButton*/}
-          {/*  borderRadius="1.25rem"*/}
-          {/*  className="font-slim relative z-10 flex items-center rounded-2xl border border-solid border-neutral-200 bg-background px-5 py-3 text-center text-base dark:border-neutral-800"*/}
-          {/*>*/}
-          {/*  <a href="https://katgreene.top/2025/01/23/kt-studio-details/" className="font-semibold">*/}
-          {/*    <Translate id="hompage.hero.introduce">技术美术开发记录</Translate>*/}
-          {/*  </a>*/}
-          {/*</MovingButton>*/}
-        </motion.div>
+            <motion.div className="mt-4 flex gap-4" custom={4} initial="hidden" animate="visible" variants={variants}>
+              {/*<MovingButton*/}
+              {/*  borderRadius="1.25rem"*/}
+              {/*  className="relative z-10 flex items-center rounded-2xl border border-solid border-neutral-200 bg-background px-5 py-3 text-center text-base font-bold dark:border-neutral-800"*/}
+              {/*>*/}
+              {/*  <a href="/project" className="font-semibold">*/}
+              {/*    <Translate id="hompage.hero.introduce">立即开玩</Translate>*/}
+              {/*  </a>*/}
+              {/*</MovingButton>*/}
+              {/*<MovingButton*/}
+              {/*  borderRadius="1.25rem"*/}
+              {/*  className="font-slim relative z-10 flex items-center rounded-2xl border border-solid border-neutral-200 bg-background px-5 py-3 text-center text-base dark:border-neutral-800"*/}
+              {/*>*/}
+              {/*  <a href="https://katgreene.top/2025/01/23/kt-studio-details/" className="font-semibold">*/}
+              {/*    <Translate id="hompage.hero.introduce">技术美术开发记录</Translate>*/}
+              {/*  </a>*/}
+              {/*</MovingButton>*/}
+            </motion.div>
 
-        <motion.div
-          className="mt-8 w-[85%] max-w-3xl"
-          custom={5}
-          initial="hidden"
-          animate="visible"
-          variants={variants}
-        >
-          <ImageCarousel
-            images={sampleImages}
-            interval={4000}
-            borderRadius={20}
-            blurAmount={10}
-          />
-        </motion.div>
-      </div>
+            <motion.div
+                className="mt-8 w-[85%] max-w-3xl"
+                custom={5}
+                initial="hidden"
+                animate="visible"
+                variants={variants}
+            >
+              <ImageCarousel
+                  images={sampleImages}
+                  interval={4000}
+                  borderRadius={20}
+                  blurAmount={10}/>
+            </motion.div>
+          </div>
 
-      <motion.div className={styles.background}>
-        <HeroSvg />
-        <Circle />
-      </motion.div>
-    </motion.div>
+          <motion.div className={styles.background}>
+            <HeroSvg/>
+            <Circle/>
+          </motion.div>
+        </motion.div>
+        <SplashCursor/></>
+
   )
 }
